@@ -6,6 +6,6 @@ while n > 0:
     rev = rev + t * 3
     n = n // 10               
 if org == rev:
-    print("Equal")             
+    print("It is an Armstrong number")             
 else:
-    print("Not equal")
+    print("It is not an Armstrong number")
